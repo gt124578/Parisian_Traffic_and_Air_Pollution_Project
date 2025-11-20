@@ -59,7 +59,6 @@ This script contains the core machine learning and visualization pipeline.
 
 The primary output of the project is an interactive HTML map (`Final_Paris_Map.html`) that visualizes the most congested streets in Paris. High-traffic streets, as identified by the K-Means algorithm, are highlighted in red, while the rest of the network is shown in blue.
 
-*(**Instructions:** Place your cropped screenshot of the final map here.)*
 ![Final Traffic Map](results/final_traffic_map.png)
 *Figure 1: Final map showing high-traffic streets (red) overlaid on the Parisian road network (blue).*
 
@@ -69,28 +68,39 @@ The initial analysis revealed interesting patterns in traffic data, and the clus
 
 <table>
   <tr>
-    <td align="center"><strong>Traffic Patterns (Monday vs. Sunday)</strong></td>
+    <td align="center" colspan="2"><strong>Weekly Traffic Patterns over 4 Years</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Mondays</strong></td>
+    <td align="center"><strong>Sundays</strong></td>
+  </tr>
+  <tr>
+    <td><img src="results/traffic_monday.png" width="400"></td>
+    <td><img src="results/traffic_sunday.png" width="400"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>Figure 2: Comparison of daily traffic volumes, highlighting the significant difference between a weekday (Monday) and a weekend day (Sunday).</em></td>
+  </tr>
+  <tr>
     <td align="center"><strong>Median Weekly Traffic over 4 Years</strong></td>
-  </tr>
-  <tr>
-    <td><img src="results/traffic_monday_vs_sunday.png" width="400"></td>
-    <td><img src="results/median_weekly_traffic.png" width="400"></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Figure 2: Comparison of daily traffic volume on Mondays vs. Sundays, showing clear weekly patterns.</em></td>
-    <td align="center"><em>Figure 3: Median traffic volume for each week of the year, highlighting seasonal variations.</em></td>
-  </tr>
-  <tr>
     <td align="center"><strong>Raw Data vs. K-Means Clustering</strong></td>
-    <td align="center"><strong>Clustering Algorithm Comparison</strong></td>
   </tr>
   <tr>
+    <td><img src="results/median_weekly_traffic.png" width="400"></td>
     <td><img src="results/kmeans_clustering_result.png" width="400"></td>
-    <td><img src="results/clustering_comparison.png" width="400"></td>
   </tr>
   <tr>
+    <td align="center"><em>Figure 3: Median traffic volume for each week of the year, showing seasonal variations.</em></td>
     <td align="center"><em>Figure 4: Scatter plot of streets by ID and traffic volume, colored by their assigned K-Means cluster.</em></td>
-    <td align="center"><em>Figure 5: An exploration of various clustering algorithms on different data structures, justifying the choice of K-Means for this problem.</em></td>
+  </tr>
+    <tr>
+    <td align="center" colspan="2"><strong>Clustering Algorithm Comparison</strong></td>
+  </tr>
+    <tr>
+    <td colspan="2" align="center"><img src="results/clustering_comparison.png" width="800"></td>
+  </tr>
+    <tr>
+    <td colspan="2" align="center"><em>Figure 5: An exploration of various clustering algorithms on different data structures, justifying the choice of K-Means for this problem.</em></td>
   </tr>
 </table>
 
