@@ -35,14 +35,14 @@ The primary dataset used in this project is the **"Comptage routier - Historique
 
 The project is divided into two main parts, corresponding to the two Python scripts.
 
-### Part 1: Exploratory Data Analysis (`Programmes TIPE 1ere partie.py`)
+### Part 1: Exploratory Data Analysis (`Program_first_part.py`)
 
 This script focuses on initial data exploration and time-series analysis.
 1.  **Data Aggregation:** The script processes the raw data to calculate the total daily traffic volume across Paris for the entire 4-year period.
 2.  **Time-Series Analysis:** It then segments this data by day of the week to analyze traffic patterns (e.g., comparing traffic on Mondays vs. Sundays).
 3.  **Visualization:** Matplotlib is used to generate scatter plots showing traffic volume over the weeks of the year, revealing seasonal trends and holiday impacts.
 
-### Part 2: Clustering and Map Generation (`Programmes TIPE 2de partie.py`)
+### Part 2: Clustering and Map Generation (`Program_second_part.py`)
 
 This script contains the core machine learning and visualization pipeline.
 1.  **Data Aggregation per Street:** The script first calculates the total vehicle count for each unique street over the 4-year period. Street names are cleaned to handle inconsistencies.
@@ -105,6 +105,6 @@ The initial analysis revealed interesting patterns in traffic data, and the clus
     -   Create an SQLite database named `tableur.db` and import the CSV data into a table named `tabdonnées`.
     -   Update the file paths in the scripts to point to your database location.
 
-3.  **Execution:**
+3.  **Execution:** (Warning: these programs are not optimal; calculation times may take several hours.)
     -   Run `Program_first_part.py` to generate the exploratory data analysis plots. Note that this script saves intermediate results (`liste_jours.py`) to avoid lengthy recalculations.
     -   Run `Program_second_part.py` to perform the clustering and generate the final HTML map. This script also saves intermediate results (`Valeur VR4.py`, `id_lib.py`) for efficiency. The final map will be saved as `Final_Paris_Map.html`.
