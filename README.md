@@ -75,8 +75,8 @@ The initial analysis revealed interesting patterns in traffic data, and the clus
     <td align="center"><strong>Sundays</strong></td>
   </tr>
   <tr>
-    <td><img src="results/traffic_monday.PNG" width="400"></td>
-    <td><img src="results/traffic_sunday.PNG" width="400"></td>
+    <td><img src="results/traffic_monday.PNG" width="600"></td>
+    <td><img src="results/traffic_sunday.PNG" width="600"></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><em>Figure 2: Comparison of daily traffic volumes, highlighting the significant difference between a weekday (Monday) and a weekend day (Sunday).</em></td>
@@ -86,8 +86,8 @@ The initial analysis revealed interesting patterns in traffic data, and the clus
     <td align="center"><strong>Raw Data vs. K-Means Clustering</strong></td>
   </tr>
   <tr>
-    <td><img src="results/median_weekly_traffic.PNG" width="400"></td>
-    <td><img src="results/kmeans_clustering_result.PNG" width="400"></td>
+    <td><img src="results/median_weekly_traffic.PNG" width="600"></td>
+    <td><img src="results/kmeans_clustering_result.PNG" width="600"></td>
   </tr>
   <tr>
     <td align="center"><em>Figure 3: Median traffic volume for each week of the year, showing seasonal variations.</em></td>
