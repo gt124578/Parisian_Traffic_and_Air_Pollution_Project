@@ -60,7 +60,7 @@ This script contains the core machine learning and visualization pipeline.
 The primary output of the project is an interactive HTML map (`Final_Paris_Map.html`) that visualizes the most congested streets in Paris. High-traffic streets, as identified by the K-Means algorithm, are highlighted in red, while the rest of the network is shown in blue.
 
 *(**Instructions:** Place your cropped screenshot of the final map here.)*
-![Final Traffic Map](results/final_paris_map.png)
+![Final Traffic Map](results/final_traffic_map.png)
 *Figure 1: Final map showing high-traffic streets (red) overlaid on the Parisian road network (blue).*
 
 ### Exploratory Analysis and Clustering Results
